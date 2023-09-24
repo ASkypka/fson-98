@@ -1,0 +1,96 @@
+:root {
+  --Black: #2c2c2c;
+  --Green: #bbf330;
+  --Orange: #ffe450;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.conteiner {
+  width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+.nav-conteiner {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-right: 30px;
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-link {
+  color: var(--Black);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 28px 0;
+  display: inline-block;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--Green);
+  text-decoration-line: underline;
+}
+
+.header-btn {
+  color: var(--Black);
+  text-align: right;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 19.5px */
+  background-color: var(--Green);
+  padding: 6px 18px;
+  border-radius: 30px;
+  min-width: 98px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background-color: var(--Orange);
+}
